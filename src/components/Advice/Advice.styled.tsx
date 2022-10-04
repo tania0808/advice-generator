@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   position: relative;
   width: 540px;
   height: 330px;
-  background-color: ${({ theme }) => theme.colors.grayishBlue};
+  background-color: ${({ theme }) => theme.colors.darkGrayishBlue};
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -46,7 +46,7 @@ export const DividerLine = styled.div`
 `;
 
 export const IconDivider = styled.img`
-  background-color: ${({ theme }) => theme.colors.grayishBlue};
+  background-color: ${({ theme }) => theme.colors.darkGrayishBlue};
   position: absolute;
   left: 50%;
   top: -8px;
